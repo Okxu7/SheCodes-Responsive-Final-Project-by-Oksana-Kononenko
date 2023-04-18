@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Overpass:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d34a15a6fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/d34a15a6fe.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles\style- contact.css" />
+   <title>Portfolio project of  Oksana Kononenko, front-end developer </title>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("xzB2pIeZq7PhPGDfx");
+      })();
+    </script>
+  </head>
+  <!-- ------------------------------------------------------------------------------------------------------- -->
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary navbar"
+      data-bs-theme="light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="about.html">Oksana Kononenko</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-nav2">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work .html">Gallery </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href=" contacts.html">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ------------------------------------------------------------------------------------ -->
+
+    <h1 class="h1-contacts">Let's get in touch!</h1>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <div class="row row-contacts">
+      <div class="col-md-8 col-8">
+        <form class="border p-3 rounded mb-3">
+          <div class="mb-3">
+            <label class="form-label"> Your email: </label>
+            <input
+              type="email"
+              name="_replyto"
+              class="form-control"
+              required=""
+              autofocus=""
+              id="email"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label"> Your message: </label>
+            <textarea
+              name="message"
+              class="form-control"
+              required=""
+              id="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-branding">Send</button>
+        </form>
+      </div>
+
+      <div class="col-md-4">
+        <h3 class="p-email">
+          <img src="images\.png" alt="" class="img-email" />My email:
+        </h3>
+        <p class="a-email">
+          <a href="mailto:ksena_ua2015@ukr.net"> ksena_ua2015@ukr.net </a>
+        </p>
+      </div>
+    </div>
+
+    <!-----------------------------------------FOE SMALL SCREEN----------------------------------------------------------------->
+
+    <div class="form-for-media">
+      <form class="border p-3 rounded mb-3">
+        <div class="mb-3">
+          <label class="form-label"> Your email: </label>
+          <input
+            type="email"
+            name="_replyto"
+            class="form-control"
+            required=""
+            autofocus=""
+            id="email"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label"> Your message: </label>
+          <textarea
+            name="message"
+            class="form-control"
+            required=""
+            id="message"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-branding">Send</button>
+      </form>
+    </div>
+
+    <footer class="footer-confacts">
+      <div class="footer">
+       <p class="logo"><a href="about.html">OK</a> </p>
+
+        <p>
+          ✌️ This website was coded by Oksana Kononenko, and is
+          <a class="source"
+            href="https://github.com/Okxu7/SheCodes-Responsive-Final-Project.git"
+            target="_blank"
+            >open-sourced</a
+          >
+          .
+        </p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
