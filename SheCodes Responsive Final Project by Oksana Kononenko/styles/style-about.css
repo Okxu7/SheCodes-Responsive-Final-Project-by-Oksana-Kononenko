@@ -1,0 +1,437 @@
+:root {
+--main-branding-color: #21046a;
+   --color1: #1034c3;
+ --color2: #5dc0f1;
+  --color5: #d5e9f9;
+ --color3: #efef25;
+ --color4: #e4e1ed;
+--color6: white;
+}
+
+ 
+
+
+body {
+  font-family: "Numito", sans-serif;
+  width: 100%;
+}
+ 
+
+.navbar-brand {
+  padding-left: 50px;
+  font-size: larger;
+  font-weight: 800;
+  color: var(--color3);
+}
+
+.nav-link {
+  color:  var(--color1);
+font-weight: 600;
+}
+
+.nav-link:hover {
+  color:  var(--color3);
+}
+
+.navbar-nav {
+  padding-left: 750px;
+}
+
+.navbar-nav2 {
+  padding-left: 600px;
+}
+
+main {
+ 
+  color:  var(--main-branding-color);
+  padding-top: 62px;
+  font-family: "Numito", sans-serif;
+  text-align: center;
+}
+
+ 
+ 
+
+h2 {
+  margin-top: 32px;
+  margin-bottom: 25px;
+  font-family: "Numito" sans-serif;
+  color:  var(--color1);
+  font-size: 44px;
+  text-align: left;
+  font-weight: 600;
+}
+h1 {
+  font-family: "Numito", sans-serif;
+  font-size: 60px;
+  margin-top: 0px;
+  font-style: bold;
+  margin-bottom: 20px;
+}
+
+/* -----------------------------------button---------------------------------- */
+
+a .button-contact {
+  padding: 43px 46px;
+  border: 3px solid  var(--main-branding-color);
+  border-radius: 30px;
+  font-size: 34px;
+  font-weight: 700;
+  font-style: italic;
+
+  color:  var( --color3);
+  background-color: var(--color1);
+
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.button-contact:hover {
+  background-color: #efef30;
+  color: #1935ec;
+  border: 3px solid rgb(215, 247, 10);
+}
+.button-contact:focus {
+  background-color: hwb(90 99% 0%);
+  color: hsl(240, 55%, 67%);
+  border: 3px solid rgb(81, 10, 247);
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+ 
+ 
+
+.h1-about {
+  font-size: 60px;
+}
+
+h2.about-h2 {
+  margin-top: 17px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "ABeeZee", sans-serif;
+  margin-right: 100px;
+  text-align: left;
+}
+p.p {
+  margin-bottom: 10px;
+}
+
+ 
+p.about-page {
+  font-size: 32px;
+  margin: 22px 190px;
+}
+
+p.about-work {
+  font-size: 32px;
+  margin: 22px 75px;
+}
+
+ 
+
+h3 {
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  font-weight: 600;
+
+  line-height: 20px;
+
+  padding-bottom: 20px;
+}
+
+.row {
+  padding: 17px 36px;
+background-color: #a6d9f3;
+  border-radius: 30px;
+
+  margin-bottom: 50px;
+}
+
+ 
+/* ----------------------------------about---------------------------------------------------------------- */
+
+.about-page {
+  font-size: larger;
+  margin-left: 56px;
+}
+.about-h2 {
+  margin: 0px 84px;
+}
+
+.mail {
+  font-size: 32px;
+}
+button.button-contact2 {
+background-color: #a6d9f3; 
+ color:  var(--color1);
+  border-radius: 20px;
+  font-size: 33px;
+  padding: 25px 81px;
+  border: #2f3cf1 1px solid;
+  margin: 40px;
+  font-weight: 600;
+}
+.button-contact2:hover {
+    background-color: rgb(64, 29, 218);
+  color: #ccea0a;
+}
+
+
+
+
+.button-contact2-media {
+  display: none;
+}
+
+ 
+ 
+ /* ------------------------------------------------------------------------------------- */
+
+footer {
+  background-color: var(--main-branding-color);
+  height: 64px;
+  color: #f3efef;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 66px;
+}
+
+.logo {
+  font-size: 33px;
+  font-weight: 900;
+  margin-top: -10px;
+
+}
+
+.logo a { 
+ text-decoration:   none;
+  color:  var(--color3);
+}
+.logo a:hover { 
+  
+  color: #f7f8fb;
+}
+
+
+.source {
+ text-decoration:   none;
+  color: #caeb11;
+
+}
+
+.source:hover {
+ text-decoration:   none;
+  color: #e7dde9;
+
+}
+ 
+p {
+  margin-right: 10px;
+}
+.sm {
+  display: none;
+}
+
+
+ 
+/* --------------------------------------------media----------------------------------------------------- */
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 23px;
+    padding-left: 10px;
+    color: #e9e511;
+    font-weight: 700;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .navbar-nav {
+    padding-left: 300px; /* menu nav pod knookoi  */
+  }
+  .nav-link {
+    color:  var(--color3);
+
+    font-size: smaller;
+  }
+
+  h1 {
+    margin-bottom: 9px;
+    font-family: "ABeeZee", sans-serif;
+   color:  var(--color1);
+    font-weight: 870px;
+    font-size: 50px;
+      margin-left: 31px;
+  }
+  p.about-page {
+    font-size: 22px;
+   
+  margin: 0 auto;
+   text-align: center;
+ 
+    width: 388;
+}
+  h2 {
+    margin-bottom: 100px;
+    font-family: "ABeeZee", sans-serif;
+     color:  var(--color1);
+    font-size: 30px;
+  }
+  h3 {
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+   color:  var(--color3);
+
+    margin-top: 0px;
+
+    line-height: 20px;
+
+    padding-bottom: 80px;
+  }
+
+  .h1-about {
+    font-size: 28px;
+  }
+
+  .button-contact {
+    padding: 23px 26px;
+    border: 3px solid   var(--color3); 
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .button-contact:hover {
+    background-color: #4d10e6;
+    color: #ece519;
+    border: 3px solid rgb(215, 247, 10);
+  }
+  .button-contact:focus {
+    background-color: #c1dc29;
+    color: #e7eb99;
+    border: 3px solid rgb(215, 247, 10);
+  }
+  h5 {
+     color:  var(--color3);
+    font-size: smaller;
+    margin-top: 77px;
+    margin-bottom: 6px;
+  }
+
+  h4 {
+    margin-top: 30px;
+    font-size: 34px;
+  }
+
+  .h1-about {
+    font-size: 30px;
+    margin: 0px 11px;
+  }
+
+ 
+
+
+ 
+  .about-mr {
+    width: 5px;
+  }
+  .p-about-mr {
+    background-color: #f3efef;
+
+    width: 281px;
+  }
+
+  p {
+    font-size: 17px;
+    width: 300px;
+
+    margin-left: -155px;
+  }
+
+  .p {
+    font-size: large;
+    margin-left: 60px;
+    margin-bottom: 90px;
+  }
+
+  section {
+    display: none;
+  }
+
+  .sm {
+    display: contents;
+  }
+
+  .my-contacts {
+    display: none;
+  }
+
+  .col-6 {    
+    display: none;
+  }
+
+  .button-contact2-media {
+    display: contents;
+  }
+
+  .about-h2 {
+    text-align: center;
+  }
+ p.about-work  {
+   
+   
+     text-align: center; 
+  margin: 0px auto;
+ }
+
+ 
+  /* ---------------------------------  footer  media    -------------------------------------------------- */
+
+  footer {
+    height: 84px;
+  }
+  footer.footer-confacts {
+    margin-top: 210px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 16px;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: space-around;
+    height: 37px;
+    width: 20%;
+    font-size: 11px;
+    padding-left: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  p {
+    margin-left: 30px;
+    font-size: 11px;
+    margin-top: 18px;
+    margin-right: 0px;
+  }
+
+  .logo {
+    font-size: 23px;
+    font-weight: 900;
+    margin-top: 18px;
+    margin-right: -168px;
+    margin-top: 18px;
+    height: 13px;
+  }
+}

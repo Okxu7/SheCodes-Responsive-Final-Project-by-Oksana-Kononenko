@@ -1,0 +1,315 @@
+:root {
+--main-branding-color: #21046a;
+   --color1: #1034c3;
+ --color2: #5dc0f1;
+  --color5: #d5e9f9;
+ --color3: #efef25;
+ --color4: #e4e1ed;
+
+}
+
+ 
+
+
+body {
+  font-family: "Numito", sans-serif;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+  font-size: larger;
+  font-weight: 800;
+  color: var(--color3);
+}
+.nav-link {
+  color:  var(--color1);
+font-weight: 600;
+}
+
+.nav-link:hover {
+  color:  var(--color3);
+
+}
+.navbar-nav {
+  padding-left: 750px;
+}
+
+.navbar-nav2 {
+  padding-left: 600px;
+}
+main {
+  color:  var(--main-branding-color);
+  padding-top: 62px;
+  font-family: "Numito", sans-serif;
+  text-align: center;
+}
+
+ 
+h1 {
+  font-family: "Numito", sans-serif;
+  font-size: 60px;
+  margin-top: 0px;
+  font-style: bold;
+  margin-bottom: 20px;
+  color:  var(--color1);
+}
+
+ 
+h4 {
+  margin-top: 30px;
+  font-size: 34px;
+   color:  var(--color1);
+margin-left: 100px;}
+
+ 
+
+p.p-work {
+  font-size: 20px;
+  font-family: "ABeeZee", sans-serif;
+  margin-left: 120px;
+  text-align: left;
+   
+}
+ 
+
+.button-project {
+  font-size: 22px;
+  color: #2b0a6c;
+  border-radius: 30px;
+  background-color: #bfd2de;
+  padding: 5px 21px;
+  border: #6a8628 1px solid;
+  margin-bottom: 80px;
+}
+.button-project:hover  {
+  border-radius: 30px;
+  background-color: #e3e88f;
+  padding: 5px 21px;
+  border: #c8d0bb 1px solid;
+  margin-bottom: 80px;
+}
+ 
+ 
+
+ 
+
+div.row {
+  padding: 17px 36px;
+
+  border-radius: 30px;
+ 
+}
+
+div.col-6  {
+   margin-bottom: 20px;background-color: #c5e2f4;
+}
+ 
+img {
+  margin: 20px;
+}
+
+ 
+/* ------------------------------------------------------------------------------------- */
+
+ 
+footer {
+  background-color: var(--main-branding-color);
+  height: 64px;
+  color: #f3efef;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 66px;
+}
+
+.logo {
+  font-size: 33px;
+  font-weight: 600;
+  margin-top: -10px;
+font-style: italic;
+}
+
+.logo a { 
+ text-decoration:   none;
+  color:  var(--color3);
+}
+.logo a:hover { 
+  
+  color: #f7f8fb;
+}
+
+
+.source {
+ text-decoration:   none;
+  color: #caeb11;
+
+}
+
+.source:hover {
+ text-decoration:   none;
+  color: #e7dde9;
+
+}
+ 
+p {
+  margin-right: 10px;
+}
+.sm {
+  display: none;
+}
+
+ 
+ 
+
+/* ------------------------------------------------------------------------------------------------------ */
+ 
+/* --------------------------------------------media----------------------------------------------------- */
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 23px;
+    padding-left: 10px;
+    color: #240da6;
+    font-weight: 700;
+    padding-top: 0px;
+    margin-top: 0px;
+  
+  }
+
+  .navbar-nav {
+    padding-left: 300px; /* menu nav pod knookoi  */
+  }
+  .nav-link {
+    color:  var(--color3);
+
+    font-size: smaller;
+  }
+  .nav-link:hover {
+    color:  var(--color1);
+
+    font-size: smaller;
+  }
+  h1 {
+    margin-bottom: 55px;
+    font-family: "ABeeZee", sans-serif;
+   color:  var(--color3);
+    font-weight: 870px;
+    font-size: 50px;
+  }
+
+  
+
+  h4 {
+    margin-top: 30px;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+ 
+
+  .button-project {
+    border-radius: 30px;
+    background-color: hsla(0, 0%, 100%, 0.901);
+    padding: 5px 21px;
+    border: var(--color3) 2px solid;
+    margin-bottom: 80px;
+     color:  var(--color1); 
+  }
+
+ 
+
+ 
+
+  p {
+    font-size: 17px;
+    width: 300px;
+
+    margin-left: -155px;
+  }
+
+  p.p {
+    font-size:   17px ;
+    margin-left:  30px;
+    margin-bottom: 20px;
+  }
+
+  section {
+    display: none;
+  }
+
+  .sm {
+    display: contents;
+  }
+
+ 
+  .col-6 {
+   
+    display: none;
+  }
+
+ 
+
+ 
+
+  p.about-work {
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  
+
+  img {
+    width: 77%;
+  }
+
+  
+
+ 
+
+  /* ---------------------------------  footer  media    -------------------------------------------------- */
+
+  footer {
+    height: 84px;
+  }
+  footer.footer-confacts {
+    margin-top: 210px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 16px;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: space-around;
+    height: 37px;
+    width: 20%;
+    font-size: 11px;
+    padding-left: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  p {
+    margin-left: 30px;
+    font-size: 11px;
+    margin-top: 18px;
+    margin-right: 0px;
+  }
+
+  .logo {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-right: -168px;
+    margin-top: 18px;
+    height: 13px;
+      font-style: italic;
+  }
+}
